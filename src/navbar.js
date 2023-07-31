@@ -78,7 +78,7 @@ const Navbar = () => {
     },
     // Add more slides here
   ];
-  const images = ["/img/home.jpg", "/img/grid.jpg"]; // Add your image URLs here
+  const images = ["./img/home.jpg", "./img/grid.jpg"]; // Add your image URLs here
   const [currentSlide, setCurrentSlide] = useState(0);
   useEffect(() => {
     // Function to change the slide after 5 seconds
@@ -407,42 +407,42 @@ const Navbar = () => {
               <li>
                 <div className="dlab-post-thum dlab-img-effect">
                   <span className="lightimg">
-                    <img src="/img/broom.jpg" alt="" />
+                    <img src="./img/broom.jpg" alt="" />
                   </span>
                 </div>
               </li>
               <li>
                 <div className="dlab-post-thum dlab-img-effect">
                   <span className="lightimg">
-                    <img src="/img/pic2.63d459c91a84dae73528.jpg" alt="" />
+                    <img src="./img/pic2.63d459c91a84dae73528.jpg" alt="" />
                   </span>
                 </div>
               </li>
               <li>
                 <div className="dlab-post-thum dlab-img-effect">
                   <span className="lightimg">
-                    <img src="/img/pic3.f45f4dfabb17258cd939.jpg" alt="" />
+                    <img src="./img/pic3.f45f4dfabb17258cd939.jpg" alt="" />
                   </span>
                 </div>
               </li>
               <li>
                 <div className="dlab-post-thum dlab-img-effect">
                   <span className="lightimg">
-                    <img src="/img/pic4.74bb2f40c2b7760b410e.jpg" alt="" />
+                    <img src="./img/pic4.74bb2f40c2b7760b410e.jpg" alt="" />
                   </span>
                 </div>
               </li>
               <li>
                 <div className="dlab-post-thum dlab-img-effect">
                   <span className="lightimg">
-                    <img src="/img/pic5.1be57176d8de886bc91b.jpg" alt="" />
+                    <img src="./img/pic5.1be57176d8de886bc91b.jpg" alt="" />
                   </span>
                 </div>
               </li>
               <li>
                 <div className="dlab-post-thum dlab-img-effect">
                   <span className="lightimg">
-                    <img src="/img/pic6.31ee44d5d94e20f04d2c.jpg" alt="" />
+                    <img src="./img/pic6.31ee44d5d94e20f04d2c.jpg" alt="" />
                   </span>
                 </div>
               </li>
@@ -532,13 +532,13 @@ const Navbar = () => {
               <div className="col-lg-6">
                 <div className="dz-media">
                   <div className="img1 aos-item">
-                    <img src="/img/building.jpg" alt="" />
+                    <img src="./img/building.jpg" alt="" />
                   </div>
                   <div className="img2 aos-item" data-aos="fade-up">
-                    <img src="/img/sofa.jpg" alt="" />
+                    <img src="./img/sofa.jpg" alt="" />
                   </div>
                   <div className="img3 aos-item">
-                    <img src="/img/bsofa.jpg" alt="" />
+                    <img src="./img/bsofa.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -602,7 +602,7 @@ const Navbar = () => {
                             aria-expanded="true"
                             className="accordion-button"
                           >
-                           <img src="/icon/crane.png"></img>Construction
+                           <img src="./icon/crane.png"></img>Construction
                             <span className="toggle-close"></span>
                           </button>
                         </h2>
@@ -630,7 +630,7 @@ const Navbar = () => {
                             aria-expanded="false"
                             className="accordion-button collapsed"
                           >
-                           <img src="/icon/ab.png"></img>
+                           <img src="./icon/ab.png"></img>
                             Architecture<span className="toggle-close"></span>
                           </button>
                         </h2>
@@ -658,7 +658,7 @@ const Navbar = () => {
                             aria-expanded="false"
                             className="accordion-button collapsed"
                           >
-                                                       <img src="/icon/ab.png"></img>
+                                                       <img src="./icon/ab.png"></img>
 Interior
                             <span className="toggle-close"></span>
                           </button>
@@ -803,7 +803,7 @@ Interior
                       className="icon-cell"
                       href="https://visva.dexignzone.com/react/demo"
                     >
-                      <img src="/icon/crane.png"></img>
+                      <img src="./icon/crane.png"></img>
                     </a>
                   </div>
                   <div className="icon-content">
@@ -837,7 +837,7 @@ Interior
                       className="icon-cell"
                       href="https://visva.dexignzone.com/react/demo"
                     >
-                      <img src="/icon/crane.png"></img>
+                      <img src="./icon/crane.png"></img>
                     </a>
                   </div>
                   <div className="icon-content">
@@ -871,7 +871,7 @@ Interior
                       className="icon-cell"
                       href="https://visva.dexignzone.com/react/demo"
                     >
-                      <img src="/icon/crane.png"></img>
+                      <img src="./icon/crane.png"></img>
                     </a>
                   </div>
                   <div className="icon-content">
@@ -905,7 +905,7 @@ Interior
                       className="icon-cell"
                       href="https://visva.dexignzone.com/react/demo"
                     >
-                      <img src="/icon/crane.png"></img>
+                      <img src="./icon/crane.png"></img>
                     </a>
                   </div>
                   <div className="icon-content">
@@ -939,7 +939,7 @@ Interior
                       className="icon-cell"
                       href="https://visva.dexignzone.com/react/demo"
                     >
-                      <img src="/icon/crane.png"></img>
+                      <img src="./icon/crane.png"></img>
                     </a>
                   </div>
                   <div className="icon-content">
@@ -973,7 +973,7 @@ Interior
                       className="icon-cell"
                       href="https://visva.dexignzone.com/react/demo"
                     >
-                      <img src="/icon/crane.png"></img>
+                      <img src="./icon/crane.png"></img>
                     </a>
                   </div>
                   <div className="icon-content">
@@ -1080,7 +1080,7 @@ Interior
                     >
                       <div className="testimonial-1">
                         <div className="testimonial-info">
-                <img src="/icon/2.png"></img>
+                <img src="./icon/2.png"></img>
                           <div className="testimonial-text">
                             <p>
                               Phasellus facilisis urna at ultrices egestas.
@@ -1298,7 +1298,7 @@ Interior
                         href="https://visva.dexignzone.com/react/demo"
                       >
                         <img
-                          src="/img/c1.jpg"
+                          src="./img/c1.jpg"
                           alt=""
                           // style="
                           //   opacity: 0;
@@ -1313,7 +1313,7 @@ Interior
                         href="https://visva.dexignzone.com/react/demo"
                       >
                         <img
-                          src="/img/c2.jpg"
+                          src="./img/c2.jpg"
                           alt=""
                           // style="
                           //   opacity: 0;
@@ -1328,7 +1328,7 @@ Interior
                         href="https://visva.dexignzone.com/react/demo"
                       >
                         <img
-                          src="/img/c3.jpg"
+                          src="./img/c3.jpg"
                           alt=""
                           // style="
                           //   opacity: 0;
@@ -1343,7 +1343,7 @@ Interior
                         href="https://visva.dexignzone.com/react/demo"
                       >
                         <img
-                          src="/img/c4.jpg"
+                          src="./img/c4.jpg"
                           alt=""
                           // style="
                           //   opacity: 0;
@@ -1358,7 +1358,7 @@ Interior
                         href="https://visva.dexignzone.com/react/demo"
                       >
                         <img
-                          src="/img/c6.jpg"
+                          src="./img/c6.jpg"
                           alt=""
                           // style="
                           //   opacity: 0;
@@ -1373,7 +1373,7 @@ Interior
                         href="https://visva.dexignzone.com/react/demo"
                       >
                         <img
-                          src="/img/c7.jpg"
+                          src="./img/c7.jpg"
                           alt=""
                           // style="
                           //   opacity: 0;
@@ -1407,7 +1407,7 @@ Interior
                             href="https://visva.dexignzone.com/react/demo"
                             
                           >
-                            <img src="/icon/sky.png"></img>
+                            <img src="./icon/sky.png"></img>
                           </a>
                         </li>
                         <li>
@@ -1416,7 +1416,7 @@ Interior
                             href="https://visva.dexignzone.com/react/demo"
                             
                           >
-                            <img src="/icon/FB.png"></img>
+                            <img src="./icon/FB.png"></img>
                           </a>
                         </li>
                         <li>
@@ -1425,7 +1425,7 @@ Interior
                             href="https://visva.dexignzone.com/react/demo"
                             
                           >
-                            <img src="/icon/INSTA.png"></img>
+                            <img src="./icon/INSTA.png"></img>
                           </a>
                         </li>
                         <li>
@@ -1434,7 +1434,7 @@ Interior
                             href="https://visva.dexignzone.com/react/demo"
                             
                           >
-                            <img src="/icon/google.png"></img>
+                            <img src="./icon/google.png"></img>
                           </a>
                         </li>
                         <li>
@@ -1443,7 +1443,7 @@ Interior
                             href="https://visva.dexignzone.com/react/demo"
                             
                           >
-                            <img src="/icon/TWIT.png"></img>
+                            <img src="./icon/TWIT.png"></img>
                           </a>
                         </li>
                       </ul>
@@ -1477,7 +1477,7 @@ Interior
               >
                 <div className="twentytwenty-img-area">
                   <div className="twentytwenty-container">
-                    <img src="/img/droom.jpg" alt="" />
+                    <img src="./img/droom.jpg" alt="" />
                   </div>
                 </div>
               </div>
@@ -1676,7 +1676,7 @@ Interior
                 >
                   <div className="content-media right">
                     <img
-                      src="/img/sview.jpg"
+                      src="./img/sview.jpg"
                       alt=""
                       // style="
                       //   opacity: 0;
@@ -1718,7 +1718,7 @@ Interior
                   >
                     <div className="dz-media">
                       <a href="https://visva.dexignzone.com/react/demo/blog-details">
-                        <img src="/img/broom.jpg" alt="" />
+                        <img src="./img/broom.jpg" alt="" />
                       </a>
                     </div>
                     <div className="dz-info">
@@ -1773,7 +1773,7 @@ Interior
                   >
                     <div className="dz-media">
                       <a href="https://visva.dexignzone.com/react/demo/blog-details">
-                        <img src="/img/bathr.jpg" alt="" />
+                        <img src="./img/bathr.jpg" alt="" />
                       </a>
                     </div>
                     <div className="dz-info">
@@ -1828,7 +1828,7 @@ Interior
                   >
                     <div className="dz-media">
                       <a href="https://visva.dexignzone.com/react/demo/blog-details">
-                        <img src="/img/osofa.jpg" alt="" />
+                        <img src="./img/osofa.jpg" alt="" />
                       </a>
                     </div>
                     <div className="dz-info">
@@ -1885,7 +1885,7 @@ Interior
               <div
                 className="footer-bg"
                 style={{
-                  backgroundImage: "url('/img/sview.jpg')",
+                  backgroundImage: "url('./img/sview.jpg')",
                 }}
               ></div>
             </div>
@@ -1900,7 +1900,7 @@ Interior
                   >
                     <div className="footer-logo logo-light">
                       <a href="https://visva.dexignzone.com/react/demo">
-                        <img src="/img/LOGO.png" alt="" />
+                        <img src="./img/LOGO.png" alt="" />
                       </a>
                     </div>
                   </div>
@@ -1971,28 +1971,28 @@ Interior
                             href="https://www.facebook.com/dexignzone/"
                             target="_blank"
                           >
-            <img src="/icon/FB.png"></img>                          </a>
+            <img src="./icon/FB.png"></img>                          </a>
                         </li>
                         <li>
                           <a
                             href="https://www.instagram.com/dexignzone/"
                             target="_blank"
                           >
-            <img src="/icon/UTUBE.png"></img>                          </a>
+            <img src="./icon/UTUBE.png"></img>                          </a>
                         </li>
                         <li>
                           <a
                             href="https://twitter.com/dexignzones/"
                             target="_blank"
                           >
-            <img src="/icon/TWIT.png"></img>                          </a>
+            <img src="./icon/TWIT.png"></img>                          </a>
                         </li>
                         <li>
                           <a
                             href="https://www.youtube.com/@dexignzone1723"
                             target="_blank"
                           >
-            <img src="/icon/INSTA.png"></img>                          </a>
+            <img src="./icon/INSTA.png"></img>                          </a>
                         </li>
                       </ul>
                     </div>
