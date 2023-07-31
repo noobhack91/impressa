@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    height: 70px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    margin-right: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .search button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .logo img {
+    height: 40px; /* Adjust the height as needed */
+    /* Add any other styling for the logo image */
+  }
+  
+  
+  /* Add any additional styling as needed */
+  

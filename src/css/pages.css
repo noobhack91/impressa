@@ -1,0 +1,212 @@
+/* YourComponent.css */
+
+/* Section container */
+.dz-content-bx {
+  /* Add any necessary styles for the section container */
+}
+
+/* Background image for the section */
+section-full.content-inner.about-bx2 {
+  background-image: url("../../public/img/bsofa.jpg");
+  background-position: right bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+/* Container for the media content */
+.about-bx2 .dz-media {
+  /* Add any necessary styles for the media container */
+  margin-right: 40px;
+  position: relative;
+}
+
+/* Image 1 */
+.about-bx2 .dz-media .img1 {
+  display: inline-block;
+  padding: 0;
+  width: 75%;
+}
+
+.about-bx2 .dz-media .img1 img {
+  width: auto;
+  -webkit-animation: dzMove1 6s linear infinite;
+  animation: dzMove1 6s linear infinite;
+}
+
+/* Image 2 */
+.about-bx2 .dz-media .img2 {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 75%;
+}
+
+.about-bx2 .dz-media .img2 img {
+  width: auto;
+  -webkit-animation: dzMove1 8s linear infinite;
+  animation: dzMove1 8s linear infinite;
+}
+
+/* Image 3 */
+.about-bx2 .dz-media .img3 {
+  display: inline-block;
+  margin-left: -20%;
+  margin-top: -15%;
+  padding: 0;
+  position: relative;
+  width: 90%;
+  z-index: 1;
+}
+
+.about-bx2 .dz-media .img3 img {
+  width: auto;
+  -webkit-animation: dzMove1 10s linear infinite;
+  animation: dzMove1 10s linear infinite;
+}
+
+/* Image animation (sample keyframes) */
+@keyframes dzMove1 {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
+
+/* Year of experience section */
+.about-bx2 .year-exp {
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.about-bx2 .year-exp .year {
+  border-right: 1px solid #e1e1f0;
+  font-family: Montserrat, sans-serif;
+  font-size: 200px;
+  line-height: 0.75;
+  margin-bottom: 0;
+  margin-right: 40px;
+  padding-right: 40px;
+}
+
+.about-bx2 .year-exp .text {
+  font-family: Montserrat, sans-serif;
+  font-size: 45px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* Margin bottom utility class */
+.m-b30 {
+  margin-bottom: 30px;
+}
+
+/* Accordion styles */
+.dz-accordion.about-faq .accordion-item:not(:last-child) {
+  border-bottom: 1px solid #e1e1f0;
+}
+
+.dz-accordion.about-faq .accordion-item {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.dz-accordion .accordion-item {
+  border: 0;
+  border-radius: 0;
+  box-shadow: 1px 0 60px 0 rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* Accordion header */
+.dz-accordion.about-faq .accordion-header {
+  margin-bottom: -10px;
+}
+
+.dz-accordion.about-faq .accordion-button {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  font-size: inherit;
+  padding: 20px 60px 20px 70px;
+}
+
+.dz-accordion .accordion-header .accordion-button {
+  background-color: #a3cc02;
+  background-color: var(--primary);
+  border: 0;
+  border-radius: 0;
+  box-shadow: 5px 0 15px rgba(163, 204, 2, 0.4);
+  box-shadow: 5px 0 15px var(--rgba-primary-4);
+  color: black;
+  font-size: 16px;
+  padding: 22px 65px 22px 30px;
+  transition: all 0.5s;
+}
+
+/* Accordion close button */
+.accordion-button {
+  align-items: center;
+  background-color: initial;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+  color: #777;
+  display: flex;
+  font-size: 1rem;
+  overflow-anchor: none;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+  width: 100%;
+}
+
+.dz-accordion.about-faq .accordion-button i {
+  color: #a3cc02;
+  color: var(--primary);
+  font-size: 45px;
+  left: 0;
+  position: absolute;
+}
+
+/* Toggle close button */
+.dz-accordion.about-faq .accordion-button .toggle-close {
+  border: 1px solid #a3cc02;
+  border: 1px solid var(--primary);
+  border-radius: 50px;
+  font-size: 24px;
+  height: 50px;
+  top: 12px;
+  width: 50px;
+}
+
+.dz-accordion .accordion-header .accordion-button .toggle-close {
+  background-color: #fff;
+  border-radius: 0;
+  display: block;
+  font-family: themify;
+  font-size: 24px;
+  height: 55px;
+  line-height: 57px;
+  overflow: hidden;
+  position: absolute;
+  right: 5px;
+  text-align: center;
+  top: 5px;
+  transition: all 0.8s;
+  width: 55px;
+  z-index: 1;
+}
+
+/* Additional styles (if applicable) */
+.container {
+  position: absolute;
+}
