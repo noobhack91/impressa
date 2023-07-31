@@ -767,7 +767,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-            <div className="row spno">
+            {/* <div className="row spno">
               <div className="col-lg-12">
                 <div className="video-bx content-media style-2">
                   <img
@@ -786,7 +786,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section
