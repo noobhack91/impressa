@@ -3,6 +3,14 @@ import { Link, animateScroll as scroll } from "react-scroll"; // Import animateS
 import "../src/css/navbar.css"; // Import the CSS file
 
 const Navbar = () => {
+  const [activeAccordion, setActiveAccordion] = useState(0);
+
+  const handleAccordionClick = (index) => {
+    setActiveAccordion((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+  const isAccordionActive = (index) => activeAccordion === index;
+
   const slides = [
     {
       image: "./img/c1.jpg",
@@ -585,94 +593,100 @@ const Navbar = () => {
                   non congue blandit.
                 </p>
                 <div className="accordion dz-accordion about-faq" id="aboutFaq">
-                  <div className="accordion">
-                    <div className="accordion-item">
-                      <div
-                      // style="
-                      //   opacity: 0;
-                      //   transform: translateX(100%) translateZ(0px);
-                      // "
+                <div className="accordion" data-aos="fade-up">
+                  <div
+                    className={`accordion-item ${
+                      isAccordionActive(1) ? "active" : ""
+                    }`}
+                    
+                  >
+                    <h2
+                      id="flush-headingOne"
+                      className="accordion-header accordion-header"
+                      onClick={() => handleAccordionClick(1)}
+                    >
+                      <button
+                        type="button"
+                        aria-expanded={isAccordionActive(1)}
+                        className="accordion-button"
                       >
-                        <h2
-                          id="flush-headingOne"
-                          className="accordion-header accordion-header"
-                        >
-                          <button
-                            type="button"
-                            aria-expanded="true"
-                            className="accordion-button"
-                          >
-                           <img src="./icon/crane.png"></img>Construction
-                            <span className="toggle-close"></span>
-                          </button>
-                        </h2>
-                        <div className="accordion-collapse collapse show">
-                          <div className="accordion-body">
-                            Vivamus sed eleifend diam.Proin vel orci commodo
-                            nulla viverra feugiat nec quis neque.
-                          </div>
-                        </div>
+                        <i className="flaticon-crane" ></i>Construction
+                        <span className="toggle-close"></span>
+                      </button>
+                    </h2>
+                    <div
+                      className={`accordion-collapse collapse ${
+                        isAccordionActive(1) ? "show" : ""
+                      }`}
+                    >
+                      <div className="accordion-body">
+                        Vivamus sed eleifend diam. Proin vel orci commodo nulla
+                        viverra feugiat nec quis neque.
                       </div>
                     </div>
-                    <div className="accordion-item">
-                      <div
-                      // style="
-                      //   opacity: 0;
-                      //   transform: translateX(100%) translateZ(0px);
-                      // "
+                  </div>
+                  <div
+                    className={`accordion-item ${
+                      isAccordionActive(2) ? "active" : ""
+                    }`}
+                  >
+                    <h2
+                      id="flush-headingTwo"
+                      className="accordion-header accordion-header"
+                      onClick={() => handleAccordionClick(2)}
+                    >
+                      <button
+                        type="button"
+                        aria-expanded={isAccordionActive(2)}
+                        className="accordion-button collapsed"
                       >
-                        <h2
-                          id="flush-headingOne"
-                          className="accordion-header accordion-header"
-                        >
-                          <button
-                            type="button"
-                            aria-expanded="false"
-                            className="accordion-button collapsed"
-                          >
-                           <img src="./icon/ab.png"></img>
-                            Architecture<span className="toggle-close"></span>
-                          </button>
-                        </h2>
-                        <div className="accordion-collapse collapse">
-                          <div className="accordion-body">
-                            Vivamus sed eleifend diam.Proin vel orci commodo
-                            nulla viverra feugiat nec quis neque.
-                          </div>
-                        </div>
+                        <i className="flaticon-interior-design"></i>Architecture
+                        <span className="toggle-close"></span>
+                      </button>
+                    </h2>
+                    <div
+                      className={`accordion-collapse collapse ${
+                        isAccordionActive(2) ? "show" : ""
+                      }`}
+                    >
+                      <div className="accordion-body">
+                        Vivamus sed eleifend diam. Proin vel orci commodo nulla
+                        viverra feugiat nec quis neque.
                       </div>
                     </div>
-                    <div className="accordion-item">
-                      <div
-                      // style="
-                      //   opacity: 0;
-                      //   transform: translateX(100%) translateZ(0px);
-                      // "
+                  </div>
+                  <div
+                    className={`accordion-item ${
+                      isAccordionActive(3) ? "active" : ""
+                    }`}
+                  >
+                    <h2
+                      id="flush-headingThree"
+                      className="accordion-header accordion-header"
+                      onClick={() => handleAccordionClick(3)}
+                    >
+                      <button
+                        type="button"
+                        aria-expanded={isAccordionActive(3)}
+                        className="accordion-button collapsed"
                       >
-                        <h2
-                          id="flush-headingOne"
-                          className="accordion-header accordion-header"
-                        >
-                          <button
-                            type="button"
-                            aria-expanded="false"
-                            className="accordion-button collapsed"
-                          >
-                                                       <img src="./icon/ab.png"></img>
-Interior
-                            <span className="toggle-close"></span>
-                          </button>
-                        </h2>
-                        <div className="accordion-collapse collapse">
-                          <div className="accordion-body">
-                            Vivamus sed eleifend diam.Proin vel orci commodo
-                            nulla viverra feugiat nec quis neque.
-                          </div>
-                        </div>
+                        <i className="flaticon-blueprint"></i>Interior
+                        <span className="toggle-close"></span>
+                      </button>
+                    </h2>
+                    <div
+                      className={`accordion-collapse collapse ${
+                        isAccordionActive(3) ? "show" : ""
+                      }`}
+                    >
+                      <div className="accordion-body">
+                        Vivamus sed eleifend diam. Proin vel orci commodo nulla
+                        viverra feugiat nec quis neque.
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
