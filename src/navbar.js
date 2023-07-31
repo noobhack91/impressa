@@ -17,7 +17,7 @@ const Navbar = () => {
       },
     },
     {
-      image: "/img/c2.jpg",
+      image: "/public/img/c2.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
@@ -29,7 +29,7 @@ const Navbar = () => {
       },
     },
     {
-      image: "/img/c3.jpg",
+      image: "/public/img/c3.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
