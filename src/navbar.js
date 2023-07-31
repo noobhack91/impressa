@@ -5,7 +5,7 @@ import "../src/css/navbar.css"; // Import the CSS file
 const Navbar = () => {
   const slides = [
     {
-      image: "../img/c1.jpg",
+      image: "/impresa/img/c1.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
