@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/impressa/static/css/main.40352c0d.css",
-    "main.js": "/impressa/static/js/main.494412af.js",
+    "main.js": "/impressa/static/js/main.b417ed18.js",
     "static/js/787.8c984f8e.chunk.js": "/impressa/static/js/787.8c984f8e.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/impressa/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/impressa/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/impressa/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/impressa/index.html",
     "main.40352c0d.css.map": "/impressa/static/css/main.40352c0d.css.map",
-    "main.494412af.js.map": "/impressa/static/js/main.494412af.js.map",
+    "main.b417ed18.js.map": "/impressa/static/js/main.b417ed18.js.map",
     "787.8c984f8e.chunk.js.map": "/impressa/static/js/787.8c984f8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40352c0d.css",
-    "static/js/main.494412af.js"
+    "static/js/main.b417ed18.js"
   ]
 }

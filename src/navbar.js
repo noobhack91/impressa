@@ -5,7 +5,7 @@ import "../src/css/navbar.css"; // Import the CSS file
 const Navbar = () => {
   const slides = [
     {
-      image: "./img/1.jpg",
+      image: "./img/c1.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
@@ -17,7 +17,7 @@ const Navbar = () => {
       },
     },
     {
-      image: "/public/img/c2.jpg",
+      image: "./img/c2.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
@@ -29,7 +29,7 @@ const Navbar = () => {
       },
     },
     {
-      image: "/public/img/c3.jpg",
+      image: "./img/c3.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
@@ -41,7 +41,7 @@ const Navbar = () => {
       },
     },
     {
-      image: "/img/c4.jpg",
+      image: "./img/c4.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
@@ -53,7 +53,7 @@ const Navbar = () => {
       },
     },
     {
-      image: "/img/c6.jpg",
+      image: "./img/c6.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
@@ -65,7 +65,7 @@ const Navbar = () => {
       },
     },
     {
-      image: "/img/c7.jpg",
+      image: "./img/c7.jpg",
       name: "Amelia Stanley",
       position: "Fitness Zumba Coach",
       social: {
@@ -112,7 +112,7 @@ const Navbar = () => {
 
   const portfolio = [
     {
-      image: "/img/bface.jpg",
+      image: "./img/bface.jpg",
 
       position: "INTERIOR DESIGN",
       title: "Modern House Interior",
@@ -120,7 +120,7 @@ const Navbar = () => {
       link: "https://visva.dexignzone.com/react/demo/portfolio-details",
     },
     {
-      image: "/img/lamp.jpg",
+      image: "./img/lamp.jpg",
 
       position: "ARCHITECTURAL",
       title: "Residential Project",
@@ -128,7 +128,7 @@ const Navbar = () => {
       link: "https://visva.dexignzone.com/react/demo/portfolio-details",
     },
     {
-      image: "/img/buil.jpg",
+      image: "./img/buil.jpg",
 
       position: "INTERIOR DESIGN",
       title: "Modern House Interior",
@@ -136,7 +136,7 @@ const Navbar = () => {
       link: "https://visva.dexignzone.com/react/demo/portfolio-details",
     },
     {
-      image: "/img/bface.jpg",
+      image: "./img/bface.jpg",
 
       position: "ARCHITECTURAL",
       title: "Residential Project",
@@ -170,7 +170,7 @@ const Navbar = () => {
           <div className="main-bar clearfix">
             <div className="container-fluid clearfix">
               <div className="logo-header mostion logo-dark">
-                <img src="/img/LOGO.png" alt="" />
+                <img src="./img/LOGO.png" alt="" />
               </div>
               <button className="navbar-toggler collapsed navicon justify-content-end open">
                 <span></span>
@@ -181,7 +181,7 @@ const Navbar = () => {
                 <div className="extra-cell">
                   <div className="extra-icon-box">
                     
-                    <img src="/icon/map.png"></img>
+                    <img src="./icon/map.png"></img>
                     <h6 className="title">15/B Miranda House New York,US</h6>
                   </div>
                   <div className="search-inhead">
@@ -218,7 +218,7 @@ const Navbar = () => {
                 id="navbarNavDropdown"
               >
                 <div className="logo-header logo-dark">
-                  <img src="/img/LOGO.png" alt="" />{" "}
+                  <img src="./img/LOGO.png" alt="" />{" "}
                 </div>
                 <ul className="nav navbar-nav navbar navbar-left">
                   <li className="sub-menu-down">
