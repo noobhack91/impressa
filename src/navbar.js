@@ -592,6 +592,95 @@ const Navbar = () => {
                   sollicitudin massa, a blandit lectus. Vivamus lacinia justo
                   non congue blandit.
                 </p>
+                {/* <div className="accordion dz-accordion about-faq" id="aboutFaq">
+                  <div className="accordion">
+                    <div className="accordion-item">
+                      <div
+                      // style="
+                      //   opacity: 0;
+                      //   transform: translateX(100%) translateZ(0px);
+                      // "
+                      >
+                        <h2
+                          id="flush-headingOne"
+                          className="accordion-header accordion-header"
+                        >
+                          <button
+                            type="button"
+                            aria-expanded="true"
+                            className="accordion-button"
+                          >
+                           <img src="./icon/crane.png"></img>Construction
+                            <span className="toggle-close"></span>
+                          </button>
+                        </h2>
+                        <div className="accordion-collapse collapse show">
+                          <div className="accordion-body">
+                            Vivamus sed eleifend diam.Proin vel orci commodo
+                            nulla viverra feugiat nec quis neque.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <div
+                      // style="
+                      //   opacity: 0;
+                      //   transform: translateX(100%) translateZ(0px);
+                      // "
+                      >
+                        <h2
+                          id="flush-headingOne"
+                          className="accordion-header accordion-header"
+                        >
+                          <button
+                            type="button"
+                            aria-expanded="false"
+                            className="accordion-button collapsed"
+                          >
+                           <img src="./icon/ab.png"></img>
+                            Architecture<span className="toggle-close"></span>
+                          </button>
+                        </h2>
+                        <div className="accordion-collapse collapse">
+                          <div className="accordion-body">
+                            Vivamus sed eleifend diam.Proin vel orci commodo
+                            nulla viverra feugiat nec quis neque.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <div
+                      // style="
+                      //   opacity: 0;
+                      //   transform: translateX(100%) translateZ(0px);
+                      // "
+                      >
+                        <h2
+                          id="flush-headingOne"
+                          className="accordion-header accordion-header"
+                        >
+                          <button
+                            type="button"
+                            aria-expanded="false"
+                            className="accordion-button collapsed"
+                          >
+                                                       <img src="./icon/ab.png"></img>
+Interior
+                            <span className="toggle-close"></span>
+                          </button>
+                        </h2>
+                        <div className="accordion-collapse collapse">
+                          <div className="accordion-body">
+                            Vivamus sed eleifend diam.Proin vel orci commodo
+                            nulla viverra feugiat nec quis neque.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
                 <div className="accordion dz-accordion about-faq" id="aboutFaq">
                 <div className="accordion" data-aos="fade-up">
                   <div
@@ -610,7 +699,7 @@ const Navbar = () => {
                         aria-expanded={isAccordionActive(1)}
                         className="accordion-button"
                       >
-                        <i className="flaticon-crane" ></i>Construction
+                          <img src="./icon/crane.png"></img>Construction
                         <span className="toggle-close"></span>
                       </button>
                     </h2>
@@ -640,7 +729,7 @@ const Navbar = () => {
                         aria-expanded={isAccordionActive(2)}
                         className="accordion-button collapsed"
                       >
-                        <i className="flaticon-interior-design"></i>Architecture
+                         <img src="./icon/ab.png"></img>Architecture
                         <span className="toggle-close"></span>
                       </button>
                     </h2>
@@ -670,7 +759,7 @@ const Navbar = () => {
                         aria-expanded={isAccordionActive(3)}
                         className="accordion-button collapsed"
                       >
-                        <i className="flaticon-blueprint"></i>Interior
+                           <img src="./icon/crane.png"></img>Interior
                         <span className="toggle-close"></span>
                       </button>
                     </h2>
@@ -767,7 +856,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="row spno">
+            <div className="row spno">
               <div className="col-lg-12">
                 <div className="video-bx content-media style-2">
                   <img
@@ -786,7 +875,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </section>
         <section
